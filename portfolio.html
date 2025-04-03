@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali Sharma - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+            min-height: 60vh;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+        }
+
+        .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 3px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+
+        .rightSection img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .skills-section {
+            max-width: 80vw;
+            margin: auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .skills-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: auto;
+            max-width: 80vw;
+            text-align: center;
+            min-height: 40vh;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #1e2167;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            min-height: 180px;
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+        }
+
+        .skill-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .skill-card p {
+            font-size: 1rem;
+        }
+
+        .secondSection,
+        .certifications {
+            max-width: 80vw;
+            margin: auto;
+            text-align: center;
+            min-height: 40vh;
+        }
+
+        .secondSection {
+            display:flex;
+            flex-direction:column;
+            margin-bottom: 50px;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+        }
+
+        .certifications {
+            margin-bottom: 50px;
+            padding: 20px 0;
+        }
+
+        .secondSection h1,
+        .certifications h1 {
+            font-size: 1.9rem;
+            margin-bottom: 20px;
+        }
+
+        .certification p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .vertical {
+            text-align: center;
+            margin: 20px;
+            width: 300px;
+        }
+
+        .footer {
+            background: #555561;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <div class="left">Anjali's Portfolio</div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey! I am <span class="purple">Anjali Sharma</span>
+                <div>And I am a</div>
+                <span id="element"></span>
+                <div>
+                    <a href="#"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/A-joshi22" target="_blank">
+                        <button class="btn">Visit My GitHub</button></a>
+                    <a
+                        href="https://www.linkedin.com/in/anjali-sharma-611a76316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button
+                            class="btn">Linkden Profile</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="https://coruzant.com/wp-content/uploads/2024/02/CDG_blog_post_image_01.jpg"
+                    alt="Profile Image">
+            </div>
+        </section>
+        <h1>My Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h2>Web Development</h2>
+                <p>Proficient in HTML, CSS, JavaScript for building dynamic and responsive web applications.</p>
+            </div>
+            <div class="skill-card">
+                <h2>Programming Languages</h2>
+                <p>Skilled in C, C++, Python, Java, Dart with experience in writing clean, efficient, and scalable code.
+                </p>
+            </div>
+            <div class="skill-card">
+                <h2>Databases</h2>
+                <p>Experienced with MySQL for managing structured and unstructured data.</p>
+            </div>
+        </div>
+        </section>
+        <section class="certifications">
+            <h1>CERTIFICATIONS</h1>
+            <p>Completed a 3-day workshop of Java</p>
+            <p>Certified in Introduction to MongoDB</p>
+            <p>Received NPTEL certificate of Joy of Computing with Python</p>
+            <p>Recived certificate of python101 for data science</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Contact me at: <a href="https://www.instagram.com/">.anjali_sh.</a></p>
+        <p>&copy; 2025 Anjali Sharma | All Rights Reserved</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' STUDENT', ' Frontend Developer ', ' Web designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
