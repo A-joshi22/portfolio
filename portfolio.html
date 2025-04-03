@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +12,11 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             background: rgb(0, 0, 33);
             color: white;
             font-family: 'Poppins', sans-serif;
+            height: 150vh;
         }
 
         nav {
@@ -89,10 +88,8 @@
 
         .skills-section h1 {
             font-size: 2.5rem;
-            margin-bottom: auto;
-            max-width: 80vw;
             text-align: center;
-            min-height: 40vh;
+            margin-bottom: 30px;
         }
 
         .skills-container {
@@ -113,59 +110,16 @@
             box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
         }
 
-        .skill-card h2 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-
-        .skill-card p {
-            font-size: 1rem;
-        }
-
-        .secondSection,
-        .certifications {
+        .secondSection, .certifications {
             max-width: 80vw;
             margin: auto;
             text-align: center;
             min-height: 40vh;
         }
 
-        .secondSection {
-            display:flex;
-            flex-direction:column;
-            margin-bottom: 50px;
-            align-items:center;
-            justify-content:center;
-            text-align:center;
-        }
-
-        .certifications {
-            margin-bottom: 50px;
-            padding: 20px 0;
-        }
-
-        .secondSection h1,
-        .certifications h1 {
-            font-size: 1.9rem;
-            margin-bottom: 20px;
-        }
-
-        .certification p {
+        .certifications p {
             font-size: 1.2rem;
             margin: 10px 0;
-        }
-
-        .box {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 30px;
-        }
-
-        .vertical {
-            text-align: center;
-            margin: 20px;
-            width: 300px;
         }
 
         .footer {
@@ -174,9 +128,7 @@
             text-align: center;
         }
     </style>
-
 </head>
-
 <body>
     <header>
         <nav>
@@ -198,40 +150,44 @@
                     <a href="#"><button class="btn">Download Resume</button></a>
                     <a href="https://github.com/A-joshi22" target="_blank">
                         <button class="btn">Visit My GitHub</button></a>
-                    <a
-                        href="https://www.linkedin.com/in/anjali-sharma-611a76316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button
-                            class="btn">Linkden Profile</button></a>
+                    <a href="https://www.linkedin.com/in/anjali-sharma-611a76316"><button class="btn">LinkedIn Profile</button></a>
                 </div>
             </div>
             <div class="rightSection">
-                <img src="https://coruzant.com/wp-content/uploads/2024/02/CDG_blog_post_image_01.jpg"
-                    alt="Profile Image">
+                <img src="https://coruzant.com/wp-content/uploads/2024/02/CDG_blog_post_image_01.jpg" alt="Profile Image">
             </div>
         </section>
-        <h1>My Skills</h1>
-        <div class="skills-container">
-            <div class="skill-card">
-                <h2>Web Development</h2>
-                <p>Proficient in HTML, CSS, JavaScript for building dynamic and responsive web applications.</p>
+        <section class="skills-section">
+            <h1>My Skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h2>Web Development</h2>
+                    <p>Proficient in HTML, CSS, JavaScript for building dynamic and responsive web applications.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>Programming Languages</h2>
+                    <p>Skilled in C, C++, Python, Java, Dart with experience in writing clean, efficient, and scalable code.</p>
+                </div>
+                <div class="skill-card">
+                    <h2>Databases</h2>
+                    <p>Experienced with MySQL for managing structured and unstructured data.</p>
+                </div>
             </div>
-            <div class="skill-card">
-                <h2>Programming Languages</h2>
-                <p>Skilled in C, C++, Python, Java, Dart with experience in writing clean, efficient, and scalable code.
-                </p>
-            </div>
-            <div class="skill-card">
-                <h2>Databases</h2>
-                <p>Experienced with MySQL for managing structured and unstructured data.</p>
-            </div>
-        </div>
         </section>
         <section class="certifications">
             <h1>CERTIFICATIONS</h1>
-            <p>Completed a 3-day workshop of Java</p>
-            <p>Certified in Introduction to MongoDB</p>
-            <p>Received NPTEL certificate of Joy of Computing with Python</p>
-            <p>Recived certificate of python101 for data science</p>
+            <p><a href="https://certificate.grras.com/verify/52563b0618726">Completed a 3-day workshop of Java</a></p>
+            <p><a href="https://www.linkedin.com/posts/anjali-sharma-611a76316_i-have-completed-the-introduction-to-mongodb-activity-7262003649411776512-1pfM?utm_source=share&utm_medium=member_android&rcm=ACoAAFA_eu0BK1KU2sfrKoalPbiv0bIE3KsBL8o">Certified in Introduction to MongoDB</a></p>
+            <p><a href="https://www.linkedin.com/posts/anjali-sharma-611a76316_joy-of-computing-with-python-activity-7287719734815420418-VR5z?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFA_eu0BK1KU2sfrKoalPbiv0bIE3KsBL8o&utm_campaign=copy_link">Received NPTEL certificate of Joy of Computing with Python</a></p>
+            <p><a href="https://courses.cognitiveclass.ai/certificates/f2d53157869445c3a73380c53e494f64">Received certificate of Python 101 for Data Science</a></p>
         </section>
+        <section class="certifications">
+            <h1>PROJECTS</h1>
+            
+
+
+        </section>
+
     </main>
     <footer class="footer">
         <p>Contact me at: <a href="https://www.instagram.com/">.anjali_sh.</a></p>
@@ -240,10 +196,11 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: [' STUDENT', ' Frontend Developer ', ' Web designer.'],
+            strings: [' STUDENT', ' Frontend Developer ', ' Web Designer.'],
             typeSpeed: 50,
         });
     </script>
 </body>
-
 </html>
+
+
